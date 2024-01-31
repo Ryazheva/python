@@ -1,0 +1,12 @@
+print("Введите три числа.")
+
+a = int(input("число 1: "))
+b = int(input("число 2: "))
+c = int(input("число 3: "))
+
+if a == b == c:
+    print(3)
+elif (a == b and b != c) or (b == c and c != a) or (c == a and a != b):
+    print(2)
+else:
+    print(0)
